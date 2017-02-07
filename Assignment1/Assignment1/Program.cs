@@ -35,8 +35,8 @@ namespace Assignment1
             Count++;
         }
 
-        public string FirstName;
-        public string LastName;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
         public string GetFullName()
         {
